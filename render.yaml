@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: selenium-login-service
+    env: docker
+    plan: standard
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
